@@ -13,3 +13,4 @@ S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Dal\bin\Debug\net8.0\TvShow.Entity.
 S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Dal\bin\Debug\net8.0\TvShow.Entity.pdb
 S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Dal\obj\Debug\net8.0\TvShow.Dal.csproj.AssemblyReference.cache
 S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Dal\obj\Debug\net8.0\TvShow.Dal.csproj.CopyComplete
+S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Dal\obj\Debug\net8.0\TvShow.Dal.sourcelink.json

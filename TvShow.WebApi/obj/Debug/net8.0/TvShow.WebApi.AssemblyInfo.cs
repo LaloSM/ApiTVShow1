@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TvShow.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2eddba1d09602b9b5af9f90be91b5446b4aa4770")]
 [assembly: System.Reflection.AssemblyProductAttribute("TvShow.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TvShow.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -12,3 +12,4 @@ S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Entity\obj\Debug\net8.0\ref\TvShow.
 S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Entity\bin\Debug\net8.0\TvShow.Entity.runtimeconfig.json
 S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Entity\obj\Debug\net8.0\TvShow.Entity.csproj.AssemblyReference.cache
 S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Entity\obj\Debug\net8.0\TvShow.Entity.genruntimeconfig.cache
+S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Entity\obj\Debug\net8.0\TvShow.Entity.sourcelink.json

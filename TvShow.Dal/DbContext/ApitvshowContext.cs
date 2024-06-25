@@ -6,17 +6,23 @@ namespace TvShow.Entity;
 
 public partial class ApitvshowContext : DbContext
 {
+    // Constructor por defecto del contexto de base de datos
+    // No realiza ninguna acción específica en este caso
     public ApitvshowContext()
     {
     }
 
+    // Constructor que recibe opciones de configuración para el contexto de base de datos
+    // Llama al constructor base con las opciones proporcionadas
     public ApitvshowContext(DbContextOptions<ApitvshowContext> options)
         : base(options)
     {
     }
 
+    // Propiedad virtual que representa la tabla Tvshows en la base de datos
     public virtual DbSet<Tvshow> Tvshows { get; set; }
 
+    // Propiedad virtual que representa la tabla Usuarios en la base de datos
     public virtual DbSet<Usuario> Usuarios { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

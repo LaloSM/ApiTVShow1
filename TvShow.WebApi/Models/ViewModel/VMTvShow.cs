@@ -7,7 +7,5 @@
         public string? Name { get; set; }
 
         public int? Favorite { get; set; }
-
-        public int? IdUser { get; set; }
     }
 }

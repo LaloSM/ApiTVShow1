@@ -261,3 +261,4 @@ S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.WebApi\bin\Debug\net8.0\TvShow.IOC.
 S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.WebApi\bin\Debug\net8.0\TvShow.Dal.pdb
 S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.WebApi\obj\Debug\net8.0\TvShow.WebApi.MvcApplicationPartsAssemblyInfo.cs
 S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.WebApi\bin\Debug\net8.0\FluentValidation.dll
+S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.WebApi\obj\Debug\net8.0\TvShow.WebApi.sourcelink.json

@@ -1,39 +1,50 @@
-using Microsoft.AspNetCore.Authentication.Cookies;
-using TvShow.IOC;
-using TvShow.WebApi.Utilities.AutoMapper;
+// Importación de namespaces necesarios para la configuración inicial
+using Microsoft.AspNetCore.Authentication.Cookies;  // Autenticación basada en cookies
+using TvShow.IOC;  // Configuración de inyección de dependencias personalizada
+using TvShow.WebApi.Utilities.AutoMapper;  // Configuración de AutoMapper
 
+// Creación del constructor de la aplicación web utilizando el nuevo estilo en .NET 6
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Agregar servicios al contenedor de servicios (IServiceCollection)
 
+// Configuración de autenticación basada en cookies
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(option =>
     {
-        option.LoginPath = "/AccesoController/Login";
-        option.ExpireTimeSpan = TimeSpan.FromMinutes(20);
+        option.LoginPath = "/AccesoController/Login";  // Ruta para el inicio de sesión
+        option.ExpireTimeSpan = TimeSpan.FromMinutes(20);  // Tiempo de expiración de la cookie
     });
 
+// Configuración de inyección de dependencias utilizando métodos personalizados
 builder.Services.InyectarDependencia(builder.Configuration);
-builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 
+// Configuración de AutoMapper
+builder.Services.AddAutoMapper(typeof(AutoMapperProfile));  // Registro del perfil de AutoMapper
+
+// Agregar controladores MVC
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
+// Configuración de Swagger/OpenAPI para la documentación de API
+builder.Services.AddEndpointsApiExplorer();  // Configuración de API Explorer
+builder.Services.AddSwaggerGen();  // Configuración de Swagger
+
+// Construcción de la aplicación
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configuración del pipeline de solicitud HTTP
+
+// Configuración para desarrollo: habilita Swagger UI
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwagger();  // Habilita Swagger
+    app.UseSwaggerUI();  // Habilita Swagger UI
 }
 
-app.UseHttpsRedirection();
+app.UseHttpsRedirection();  // Redirección HTTPS
 
-app.UseAuthorization();
+app.UseAuthorization();  // Configuración de autorización
 
-app.MapControllers();
+app.MapControllers();  // Mapeo de los controladores MVC
 
-app.Run();
+app.Run();  // Ejecución de la aplicación
