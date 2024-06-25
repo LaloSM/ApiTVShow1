@@ -1,0 +1,15 @@
+S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Dal\bin\Debug\net8.0\TvShow.Dal.deps.json
+S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Dal\bin\Debug\net8.0\TvShow.Dal.dll
+S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Dal\bin\Debug\net8.0\TvShow.Dal.pdb
+S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Dal\obj\Debug\net8.0\TvShow.Dal.GeneratedMSBuildEditorConfig.editorconfig
+S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Dal\obj\Debug\net8.0\TvShow.Dal.AssemblyInfoInputs.cache
+S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Dal\obj\Debug\net8.0\TvShow.Dal.AssemblyInfo.cs
+S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Dal\obj\Debug\net8.0\TvShow.Dal.csproj.CoreCompileInputs.cache
+S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Dal\obj\Debug\net8.0\TvShow.Dal.dll
+S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Dal\obj\Debug\net8.0\refint\TvShow.Dal.dll
+S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Dal\obj\Debug\net8.0\TvShow.Dal.pdb
+S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Dal\obj\Debug\net8.0\ref\TvShow.Dal.dll
+S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Dal\bin\Debug\net8.0\TvShow.Entity.dll
+S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Dal\bin\Debug\net8.0\TvShow.Entity.pdb
+S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Dal\obj\Debug\net8.0\TvShow.Dal.csproj.AssemblyReference.cache
+S:\ProyectosDevs\TvApi\SolutionTvShow\TvShow.Dal\obj\Debug\net8.0\TvShow.Dal.csproj.CopyComplete

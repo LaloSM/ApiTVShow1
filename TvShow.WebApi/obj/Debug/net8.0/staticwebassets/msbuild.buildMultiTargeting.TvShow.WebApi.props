@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TvShow.WebApi.props" />
+</Project>
